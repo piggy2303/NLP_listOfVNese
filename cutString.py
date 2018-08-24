@@ -1,4 +1,4 @@
-with open("output.txt", "rt") as fin:
+with open("input.txt", "rt") as fin:
     with open("output2.txt", "wt") as fout:
         for line in fin:
             line1 = line.split("</i>")

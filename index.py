@@ -108,7 +108,7 @@ def main():
 
     with conn:
         print("2. Query all tasks")
-        with open("output.txt", "wt") as fout:
+        with open("input.txt", "wt") as fout:
             for item in arrTable:
                 fout.write(select_all_tasks(conn, item))
 
